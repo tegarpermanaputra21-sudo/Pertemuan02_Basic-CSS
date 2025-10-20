@@ -1,0 +1,32 @@
+/* All */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* External CSS */
+/* Tugas 1 */
+.external1{
+    background-color: lightblue;
+}
+.external1 h1{
+    color: navy;
+    margin-left: 20px;
+}
+
+/* Tugas 2 */
+.external2 h1{
+    text-align: center;
+}
+.external2 .date{
+    text-align: right;
+}
+.external2 .main{
+    text-align: justify;
+}
+
+/* Tugas 3 */
+.external3 .serif{
+    font-family: "Times New Roman", Times, serif;
+}
+.external3 .sansserif{
+    font-family: Arial, Helvetica, sans-serif;
+}
