@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List HTML</title>
+    <style>
+                /* All */
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Header */
+        .header {
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul {
+            list-style: none;
+            display: flex; 
+            gap: 20px; 
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover{
+            color: #bd67ff;
+        }
+    </style>
+</head>
+<body>
+        <section class="header">
+        <a href="https://github.com/tegarpermanaputra21-sudo">Noth1ng</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internal.html">Internal</a></li>
+                <li><a href="eksternal.html">Eksternal</a></li>
+                <li><a href="alone.html">Alone</a></li>
+                <li><a href="border.html">Border</a></li>
+            </ul>
+        </nav>
+    </section>
+    <h1>List HTML</h1>
+    <div class="ul">
+        <h2>Unordered List</h2>
+        <p>This is an example of an unordered list:</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+    <div class="ol">
+        <h2>Ordered List</h2>
+        <p>This is an example of an ordered list:</p>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    </div>
+    <div class="dl">
+        <h2>Definition List</h2>
+        <p>This is an example of a definition list:</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>A markup language for creating web pages.</dd>
+            <dt>CSS</dt>
+            <dd>A style sheet language used for describing the presentation of a document.</dd>
+            <dt>JavaScript</dt>
+            <dd>A programming language commonly used in web development.</dd>
+        </dl>
+</body>
+</html>
